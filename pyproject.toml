@@ -1,0 +1,19 @@
+[project]
+name = "read-pdf"
+version = "0.1.0"
+description = "OCR рукописей через Gemini → ГОСТ-DOCX"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    # Vision (Module 1)
+    "Pillow>=10",
+    "python-dotenv>=1.2.2",
+    # Markdown encoder (Module 2)
+    "langgraph>=1.1.10",
+    # Converter (Module 3)
+    "python-docx>=1.1",
+    "latex2mathml>=3.77",
+    "lxml>=5.0",
+    "matplotlib>=3.8",
+    "google-genai>=2.2.0",
+]
